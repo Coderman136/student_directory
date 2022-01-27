@@ -1,0 +1,8 @@
+.tags{
+ border: 1px solid black;
+ width: 90px;
+ background-color: rgb(241, 236, 236);
+ border-radius: 15px;
+ padding:3px;
+ margin: 5px;
+}

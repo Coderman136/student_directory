@@ -1,0 +1,107 @@
+body{
+  height: 100px;
+  font-family: 'Raleway', sans-serif;
+  background-color: rgb(235, 230, 230);
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  text-align: center;
+  border: 1px solid rgb(185, 180, 180);
+  background-color: #fff;
+  padding: 23px;
+  border-radius: 11px;
+  width: 800px;
+  height: 600px;
+  margin:50px auto;
+  overflow-y: scroll;
+}
+.info::-webkit-scrollbar { 
+    display: none; 
+}
+
+.search{
+  /* border: 3px solid red; */
+  width: 90%;
+  height: 50px;
+  text-align: left;
+}
+.search input{
+  width: 90%;
+  height: 87%;
+  font-size: large;
+  font-family: 'Raleway', sans-serif;
+  border: none;
+  border-bottom: 1px solid rgb(167, 165, 165);
+}
+.search input:focus{
+  outline: none;
+  border: none;
+  border-bottom: 1.5px solid #000;
+}
+
+.studentInfo{
+  display: flex;
+  /* border: 2px solid red; */
+  flex: 1;
+  flex-wrap: wrap;
+  align-content: space-between ;
+}
+
+.studentInfo .image{
+  /* margin-top: 60px;
+  transform: scale(2); */
+  /* border: 3px solid green; */
+  flex-grow: 0.3;
+}
+
+.studentInfo .image img{
+  border: 1.5px solid gainsboro;
+  margin: 50% auto;
+  transform: scale(2);
+  border-radius: 50%;
+
+}
+
+.studentInfo .details{
+  flex: 1;
+  text-align: left;
+   /* border: 3px solid green; */
+}
+.studentInfo .details h1{
+  text-transform: uppercase;
+  
+}
+.studentInfo .details p{
+  line-height: 10px;
+  color: rgb(122, 120, 120);
+  text-indent: 20px;
+  font-weight: bold;
+}
+.grades{
+ display: none;
+}
+
+.toggle{
+  /* transform: scale(2); */
+  /* border: 2px solid red; */
+  width: 30px;
+  height: 30px;
+  font-size: larger;
+  font-weight: bolder;
+  margin-top: 25px;
+  color: gray;
+}
+.toggle:hover{
+cursor: pointer;
+}
+
+.invisible{
+display: block;
+}
+
+
+
+
+
